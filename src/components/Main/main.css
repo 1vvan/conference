@@ -1,0 +1,29 @@
+.container {
+    margin: 50px 0px;
+    padding: 20px;
+    background-color: #F5DEB3;
+    border-radius: 5px;
+}
+
+.link-button{
+    width: 200px;
+    height: 200px;
+    border: none;
+    background: transparent;
+}
+.container button img {
+    height: 200px;
+    width: 200px;
+}
+
+.link-to-members-list{
+    font-size: 17px;
+    color: rgb(101, 101, 101);
+}
+.link-to-members-list:hover{
+    color: rgb(0, 126, 0);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.48);
+}
+.PhoneInputInput{
+    border: none;
+}

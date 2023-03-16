@@ -1,0 +1,30 @@
+.members{
+    padding: 20px;
+}
+
+.list-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member-card{
+    width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 10px #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.card-image{
+    width: 180px;
+    height: 180px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #000;
+    overflow: hidden;
+}
+.hide {
+    display: none;
+}
