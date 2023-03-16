@@ -191,12 +191,12 @@ const Main = () => {
         window.open(shareLink);
     }
 
-    const shareLinkGmail = `mailto:?subject=${encodeURIComponent('Check out this Meetup with SoCal!')}&body=${encodeURIComponent('Reference link to the conference')}`;
+    const shareLinkGmail = `mailto:?subject=${encodeURIComponent('Check out this Meetup with SoCal!')}&body=${encodeURIComponent('Reference link to the conference: https://conference-registration-steel.vercel.app/')}`;
     const handleGmailClick = () => {
         window.open(shareLinkGmail);
     };
 
-    const shareLinkFacebook = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://example.com')}&quote=${encodeURIComponent('Check out this Meetup with SoCal!')}`;
+    const shareLinkFacebook = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://conference-registration-steel.vercel.app/')}&quote=${encodeURIComponent('Check out this Meetup with SoCal!')}`;
     const handleFacebookClick = () => {
     window.open(shareLinkFacebook);
   };
